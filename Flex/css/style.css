@@ -196,6 +196,11 @@ body {
   line-height: 36px;
 }
 
+.colums {
+  background-color: #f5f5f5;
+  padding: 50px 0px;
+}
+
 .colums__title {
   text-align: center;
   margin: 0px 0px 30px 0px;
@@ -205,12 +210,17 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px -8px;
 }
 
 .colums__colum {
+  padding: 0px 8px;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
+  margin: 0px 0px 30px 0px;
 }
 
 .item__row {
@@ -230,6 +240,124 @@ body {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 0px 0px 0px 15px;
+}
+
+.item__title {
+  color: #445161;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0px 0px 13px 0px;
+}
+
+.item__text {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.vertical {
+  padding: 50px 0px;
+}
+
+.vertical__title {
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+.vertical__body {
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.vertical__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px -22.5px;
+}
+
+.vertical__colum {
+  padding: 0px 22.5px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vertical__item {
+  background-color: #445162;
+  color: #fff;
+  border-radius: 5px;
+  border: #445162;
+  padding: 0px 0px 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.vertical__subtitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 12px 0px;
+}
+
+.vertical__label {
+  background-color: #fff;
+  text-align: center;
+  color: #445162;
+  padding: 15px 0px;
+  font-size: 40px;
+}
+
+.vertical__text {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.vertical__text p {
+  margin: 0px 0px 15px 0px;
+}
+
+.vertical__text p:last-child {
+  margin: 0;
+}
+
+.vertical__btn {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  margin: 0px 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: #445161;
+  font-size: 18px;
+  background-color: #ffffff;
+}
+
+.colum1 {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.colum2 {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.colum3 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .footer {
